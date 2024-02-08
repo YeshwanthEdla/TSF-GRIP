@@ -35,3 +35,5 @@ print("Mean Squared Error:", mse)
 new_study_hours = np.array([[9.25]])  # predicting score for 9.25 study hours
 predicted_percentage = model.predict(new_study_hours.reshape(-1, 1))
 print("Predicted Percentage:", predicted_percentage[0])
+
+output is 92.38611528261494
